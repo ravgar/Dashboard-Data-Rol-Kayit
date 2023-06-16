@@ -1,2 +1,1 @@
-# Dashboard-Data-Rol-Kayi
-Dataya Dashboard Üzerinden Girilen Rollerin Kaydını Gösterdim İyi Günler
+# Örnek Olması İçin Atılmıştır
