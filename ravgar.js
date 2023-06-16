@@ -8,10 +8,10 @@ const client = new Discord.Client();
 
 mongoose.connect('MONGODB-URL-GİR', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
-    console.log('Veritabanına başarıyla bağlanıldı.');
+    console.log('MongoDb Aktif');
   })
   .catch((err) => {
-    console.error('Veritabanı bağlantısı başarısız:', err);
+    console.error('MongoDb Bağlantısı Başarısız', err);
   });
 
 const GuildSettings = mongoose.model('GuildSettings', new mongoose.Schema({
