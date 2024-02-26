@@ -1,1 +1,1 @@
-# Örnek Olması İçin Atılmıştır
+
